@@ -1,0 +1,57 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "product": {
+    "product": "sshibili",
+    "price": "100"
+  },
+  "user": [
+    {
+      "name": "ameen",
+      "age": 23,
+      "id": 1
+    },
+    {
+      "name": "shibili",
+      "age": "100",
+      "id": "2"
+    },
+    {
+      "age": "15",
+      "name": "rashid mk",
+      "id": "3"
+    },
+    {
+      "name": "arshad",
+      "age": 23,
+      "id": "7DXvbts"
+    }
+  ],
+  "login": {
+    "userName": "ameen",
+    "pass": "12345",
+    "token": "1000"
+  },
+  "users": [
+    {
+      "email": "oameen@mail.com",
+      "password": "$2a$10$aB2XLe33OIpt/uQFdyirwec.EN3IFQjnLd44lvJP2V8dtl.n1lZgO",
+      "id": 2
+    }
+  ]
+}

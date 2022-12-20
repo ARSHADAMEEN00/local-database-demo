@@ -1,7 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import axios from "axios";
 
 function App() {
+  axios
+    .get("http://localhost:3000/user")
+    .then((res) => console.log("users", res));
+
   return (
     <div className="App">
       <header className="App-header">
